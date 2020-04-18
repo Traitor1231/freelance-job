@@ -1,0 +1,101 @@
+  /*меню регистрации*/
+body {
+    background: url(../img/Background.jpg) fixed no-repeat;
+    background-size: cover;
+  }
+.reg-container{
+    margin: 9% auto;
+    min-width: 210px;
+    max-width: 500px;
+    border: 1px solid;
+    padding: 50px;
+    border-radius: 20px;
+    background: rgba(255, 239, 224, 0.89);
+    webkit-box-shadow: 0px 0px 14px 4px rgba(0,0,0,0.51);
+    -moz-box-shadow: 0px 0px 14px 4px rgba(0,0,0,0.51);
+    box-shadow: 0px 0px 14px 4px rgba(0,0,0,0.51);
+}
+hr{
+    border: none;
+    width: 80%;
+    margin: 30px auto;
+    height: 2px;
+    background-color: #ffbf00;
+}
+h2 {
+    display: block;
+    text-align: center;
+    font-family:Roboto;
+    font-size: 20pt;
+}
+.btn{
+    padding: 15px;
+    font-size: 16px;
+    line-height: 1em;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    font-weight: 700;
+    color: #ffbf00;
+    border-radius: 3px;
+    font-family: Roboto,sans-serif;
+    background-color: rgba(0,0,0,0);
+    border: 1px solid #ffbf00;
+  }
+  .btn:hover{
+    color:white;
+    background-color: #c39818;
+  }
+  .btn:active{
+    position:relative;
+    top:2px;
+  }
+  .btn-wrapper{
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 45px;
+  }
+  form input{
+    display: block;
+    font-family: Roboto;
+    font-size: 14px;
+    border: 1px solid orange;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 15px 0px;
+    width: 100%;
+    max-width: 478px;
+    resize: none;
+  }
+  .form-input-wrapper{
+    margin-right: 22px;
+  }
+  .right{
+    float: right;
+  }
+  .registration-warpper{
+    margin-top: 15px;
+  }
+  .registration-warpper a{
+    font-family: Roboto;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bolder;
+  }
+  .registration-warpper a:hover{
+    color: #c39818;
+  }
+  @media(max-width:420px){
+    .right{
+      float: none;
+    }
+  .top{
+      margin-top:15px;
+    }
+  }
+  /*php обработчик файла регистрации*/
+  .reg-wrapper{
+    background: url(../img/Background.jpg) fixed no-repeat;
+    background-size: cover;
+  }  

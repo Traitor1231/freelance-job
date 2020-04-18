@@ -1,0 +1,11 @@
+<?php
+//Стартуем сессию
+session_start();
+//Уничтожаем сессию
+session_destroy();
+//И сразу перенаправляем на нужную страницу пользователя 
+header('Location: ../index.php');
+ // Подключение к БД
+include('config.php'); 
+
+?>

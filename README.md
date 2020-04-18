@@ -4,6 +4,6 @@
 
 ```
 $ git clone https://github.com/Traitor1231/freelance-job
-$ cd CVT-gulp
+$ cd freelance-job
 $ npm install
 ```

@@ -8,9 +8,11 @@ Responsinator:http://www.responsinator.com/?url=http%3A%2F%2Ff0431849.xsph.ru%2F
 ## AUTH-DATA
 
 Login-admin: admin
+
 Password-admin:admin
 
 Login-user: user
+
 Password-user:user
 
 ## Local installation
